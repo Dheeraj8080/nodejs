@@ -10,6 +10,10 @@ app.get("/dashboard", (req, res) => {
   res.send("DashBoard Page");
 });
 
+app.get("/test", (req, res) => {
+  res.send("DashBoard Page test");
+});
+
 app.listen(port, () => {
   console.log("Server Started, Port ", port);
 });
