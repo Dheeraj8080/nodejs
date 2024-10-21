@@ -33,10 +33,6 @@ app.get('/test1', (req, res) => {
   res.send('test Page');
 });
 
-app.get('/test1', (req, res) => {
-  res.send('test Page');
-});
-
 app.listen(port, () => {
   console.log('Server Started, Port ', port);
 });
