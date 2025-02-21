@@ -66,6 +66,10 @@ app.get('/tes121112', (req, res) => {
   res.send('test Page');
 });
 
+app.get("/new", (req, res) => {
+  res.send("DashBoard Page new");
+});
+
 app.listen(port, () => {
   console.log('Server Started, Port ', port);
 });
